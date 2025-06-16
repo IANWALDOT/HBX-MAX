@@ -1,0 +1,231 @@
+body{
+  min-height: 200vh;
+  padding-top: 70px;
+  background-color: black;
+}
+
+#logohbomax img{
+  width: 130px;
+  height: auto;
+  object-fit: contain;
+  transform: translate(-25%, -30%);
+}
+
+/*transmitir imagen*/
+#imgtransmitir img{
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  transform: translate(400%, 5%);
+}
+
+/*descargas imagen*/
+#imgnotif img{
+  width: 25px;
+  height: auto;
+  object-fit: contain;
+  transform: translate(370%, 5%);
+}
+
+#imgusuario img{
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+  transform: translate(200%, 5%);
+}
+
+/*imagen buscar*/
+#imgbuscar img{
+  width: 32px;
+  height: 26px;
+  object-fit: contain;
+  transform: translate(440%, 0%);
+}
+
+/* Barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: calc(env(safe-area-inset-top) + 10px) 20px 10px 20px; /* respeta el notch */
+  background-color: transparent;
+  z-index: 1000;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Lista dentro de la barra */
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.list_categorias{
+  display: flex;
+  gap: 10px;
+  margin-bottom: -20px;
+    list-style: none;
+    transform: translateY(-37px) translateX(-15px);
+}
+
+/*categorias barra de navegacion*/
+.list_categorias li p{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px 14px;
+  margin-top: 0;
+  transform: translateY(-13px) translateX(-42px);
+  font-size: 17px;
+}
+
+/* opciones arriba*/
+.nav-list li{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: color 0.3s ease;
+
+}
+
+
+
+/*barra de abajo*/
+.barra-inferior {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* negro con 50% de transparencia */
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.barra-inferior ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center; /* centrar horizontal */
+  gap: 100px;
+}
+
+#imginicio{
+  width: 40px;
+  height: 40px;
+}
+
+#imgnuevoypopular{
+    width: 80px;
+    height: auto;
+}
+
+#imgminetflix{
+      width: 50px;
+    height: auto;
+}
+
+#categoria1{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+
+#categoria2terror{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+
+#categoria3infantil{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+
+#categoria4accion{
+    color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+}
+
+
+
+
+.galeria-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+  margin-top: 0px;
+  padding-left: 0;
+  margin-left: 0;
+
+}
+
+.item {
+  flex: 0 0 auto; /* evita que se ajuste al ancho del contenedor */
+  text-align: center;
+  color: white;;
+}
+
+.item img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.item img:hover {
+  transform: scale(1.05);
+}
+
+#caricaturas{
+    color: white;
+}
+
+
+
+
+
+
+
+.galeria-scroll2 {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+  margin-top: 0px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.item2 {
+  flex: 0 0 auto; /* evita que se ajuste al ancho del contenedor */
+  text-align: center;
+  color: white;;
+}
+
+.item2 img {
+  width: 110px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.item2 img:hover {
+  transform: scale(1.05);
+}
